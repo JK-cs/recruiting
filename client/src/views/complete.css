@@ -1,0 +1,118 @@
+.contentBox {
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 3px;
+  position: fixed;
+  width: 350px;
+  height: 120px;
+  right: 15px;
+  top: 15px;
+  z-index: 5;
+  padding: 15px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+
+  animation: fadeIn 0.5s, fadeout 1.5s 5s;
+  -moz-animation: fadeIn 0.5s, fadeout 1.5s 5s; /* Firefox */
+  -webkit-animation: fadeIn 0.5s, fadeout 1.5s 5s; /* Safari and Chrome */
+  -o-animation: fadeIn 0.5s, fadeout 1.5s 5s; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+.apply_icon {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 40px;
+  float: left;
+}
+
+.apply_icon img {
+  width: 30px;
+}
+
+.description {
+  font-weight: 500;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 20px;
+  float: left;
+}
+
+.description p {
+  margin-top: 15px;
+  font-size: 13px;
+  text-align: left;
+}
+
+/* ---------------------- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeout {
+  /* Firefox */
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeout {
+  /* Safari and Chrome */
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-o-keyframes fadeout {
+  /* Opera */
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

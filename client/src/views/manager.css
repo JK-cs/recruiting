@@ -1,0 +1,149 @@
+.banner_result img {
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+}
+.resultTable {
+  margin-top: 50px;
+  width: 80%;
+}
+
+th {
+  color: white;
+  background-color: #ec1468;
+  font-size: 20px;
+  padding: 4px;
+  margin: 5px;
+  word-break: keep-all;
+}
+tbody {
+  font-size: 20px;
+  line-height: 50px;
+}
+.btn {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  background-color: #ec1468;
+  color: white;
+  border: none;
+  height: 30px;
+  /* color: #ec1468; */
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+}
+.editTitle {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  word-break: keep-all;
+}
+.formcontainer {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+}
+form {
+  align-items: flex-start;
+}
+.form-control {
+  font-size: 23px;
+  width: 200px;
+}
+.formgroup {
+  font-size: 23px;
+  align-items: flex-end;
+}
+.formlabel {
+  font-family: Pretendard-Regular;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 50px;
+  width: 100px;
+  margin-right: 10px;
+  word-break: keep-all;
+}
+.input1 {
+  font-size: 23px;
+  width: 352px;
+}
+.input2 {
+  font-size: 23px;
+  width: 237px;
+}
+.input3 {
+  font-size: 23px;
+  width: 373px;
+}
+.input4 {
+  font-size: 23px;
+  width: 308px;
+}
+.editbtn {
+  margin-top: 20px;
+  background-color: #ec1468;
+  color: white;
+  font-size: 25px;
+  width: 415px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ec1468;
+}
+
+@media screen and (max-width: 900px) {
+  tbody {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  tbody {
+    font-size: 15px;
+  }
+  th {
+    font-size: 15px;
+  }
+  .formcontainer {
+  }
+  form {
+    /* width: 40%; */
+  }
+  .formgroup {
+    display: flex;
+    width: 100%;
+  }
+  .formlabel {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-right: 10px;
+    width: 500px;
+  }
+  .formcontrol {
+    width: 40%;
+  }
+  .input1 {
+    width: 280px;
+  }
+  .input2 {
+    width: 211.5px;
+  }
+  .input3 {
+    width: 293px;
+  }
+  .input4 {
+    width: 254px;
+  }
+  .editbtn {
+    width: 325px;
+  }
+  .editTitle {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
