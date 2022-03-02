@@ -63,6 +63,8 @@ resultRoutes.route("/update/:id").post(function (req, res) {
       notice.team = req.body.team;
       notice.pass = req.body.pass;
       notice.key = req.body.key;
+      notice.submit = req.body.submit;
+      notice.password = req.body.password;
       notice
         .save()
         .then((notice) => {
